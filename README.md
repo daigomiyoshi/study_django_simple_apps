@@ -1,0 +1,2 @@
+# study_django_simple_apps
+Djangoを使ったいくつかのWebアプリ
