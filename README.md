@@ -26,6 +26,17 @@ Djangoを使ったいくつかのWebアプリ
 
 - ```python manage.py startapp todo```
 
+### Make migration for models
+
+- ```python manage.py makemigrations```
+- ```python manage.py migrate```
+
+### Create super user
+
+- ```python manage.py createsuperuser```
+  - Username: daigomiyoshi
+  - Password: daigo1123
+
 ### Run server for todoproject
 
 - ```python manage.py runserver```
