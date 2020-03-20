@@ -22,7 +22,7 @@ Djangoを使ったいくつかのWebアプリ
 
 - ```django-admin startproject todoproject .```
 
-### Setup apps files about todo
+### Setup apps files about todoproject
 
 - ```python manage.py startapp todo```
 
@@ -31,7 +31,7 @@ Djangoを使ったいくつかのWebアプリ
 - ```python manage.py makemigrations```
 - ```python manage.py migrate```
 
-### Create super user
+### Create super user for todoproject
 
 - ```python manage.py createsuperuser```
   - Username: daigomiyoshi
@@ -40,3 +40,19 @@ Djangoを使ったいくつかのWebアプリ
 ### Run server for todoproject
 
 - ```python manage.py runserver```
+
+## Command about 'SNS' apps
+
+### Setup project for boardproject
+
+- ```django-admin startproject boardproject .```
+
+### Setup apps files about boardapp
+
+- ```python manage.py startapp boardapp```
+
+### Create super user for boardproject
+
+- ```python manage.py createsuperuser```
+  - Username: daigomiyoshi
+  - Password: daigo1123
